@@ -1,5 +1,5 @@
 /*******************************************************************/
-/* carquery.0.3.3.js 						   */
+/* carquery.0.3.4.js 						   */
 /* javascript object for interacting with the CarQuery JSON API    */
 /* Copyright (C) 2011  Daniel Mancusi (dan@carqueryapi.com)   	   */
 /* http://www.carqueryapi.com					   */
@@ -1095,6 +1095,7 @@ CarQuery.prototype = {
 	{
 		$("select#"+this.make_select_id).html(this.empty_option_html);
 		$("select#"+this.model_select_id).html(this.empty_option_html);
+		$("select#"+this.trim_select_id).html(this.empty_option_html);
 	    	return;
     	}
     	
@@ -1126,6 +1127,7 @@ CarQuery.prototype = {
     	if(this.cur_make == "")
     	{
     		$("select#"+this.model_select_id).html(this.empty_option_html);
+			$("select#"+this.trim_select_id).html(this.empty_option_html);
     		return;
     	}
     
