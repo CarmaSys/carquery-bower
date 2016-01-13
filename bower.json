@@ -1,12 +1,12 @@
 {
   "name": "carquery-bower",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "ignore": [
     ".jshintrc",
     "**/*.txt"
   ],
   "dependencies": {
-    "jquery": "~2.1.4"
+    "jquery": "~2.2.0"
   },
   "repository": {
     "type": "git",

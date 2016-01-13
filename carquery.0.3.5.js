@@ -1,5 +1,5 @@
 /*******************************************************************/
-/* carquery.0.3.4.js 						   */
+/* carquery.0.3.5.js 						   */
 /* javascript object for interacting with the CarQuery JSON API    */
 /* Copyright (C) 2011  Daniel Mancusi (dan@carqueryapi.com)   	   */
 /* http://www.carqueryapi.com					   */
